@@ -172,8 +172,8 @@ using namespace std;
 //6
 void ss(int* p1, int size, int* max, int* min, int* z1, int* z2)
 {
-	*max = p1[1];
-	*min = p1[1];
+	*max = p1[0];
+	*min = p1[0];
 	*z1 = 0;
 	*z2 = 0;
 	for (int i = 0; i < size; i++)
